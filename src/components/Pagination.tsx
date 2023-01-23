@@ -40,9 +40,9 @@ const Pagination: React.FC<Props> = ({
             key={page}
             className={page === currentPage ? "pageItemActive" : "pageItem"}
           >
-            <button className="pageLink" onClick={() => onPageChange(page)}>
+            <a className="pageLink" onClick={() => onPageChange(page)}>
               {page}
-            </button>
+            </a>
           </li>
         ))}
         <li>
