@@ -1,0 +1,37 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  float: right;
+}
+
+.pageLink {
+  cursor: pointer;
+}
+
+.pageItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+}
+
+.pageItemActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+  background-color: gray;
+}
+button {
+  width: 5rem;
+  height: 2rem;
+  border: 1px solid #eaeaea;
+  cursor: pointer;
+}
